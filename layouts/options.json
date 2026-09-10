@@ -1,7 +1,7 @@
 {
   "settings_popup": {
-		"type": "container",
-		"background": "#000000",
+    "type": "container",
+    "background": "#000000",
     "content": [
       {
         "type": "tabbed",
@@ -27,7 +27,8 @@
                           {
                             "type": "item",
                             "item": "goal",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -45,7 +46,8 @@
                           {
                             "type": "item",
                             "item": "nest_setting",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -63,7 +65,8 @@
                           {
                             "type": "item",
                             "item": "brauner_setting",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -100,7 +103,8 @@
                           {
                             "type": "item",
                             "item": "brauner_portraits",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -118,7 +122,8 @@
                           {
                             "type": "item",
                             "item": "dracula_portraits",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -142,7 +147,8 @@
                           {
                             "type": "item",
                             "item": "change_cube_setting",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -160,7 +166,8 @@
                           {
                             "type": "item",
                             "item": "stronger_glove_setting",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -197,7 +204,8 @@
                           {
                             "type": "item",
                             "item": "call_cube_setting",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -215,7 +223,8 @@
                           {
                             "type": "item",
                             "item": "boss_keys",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -233,7 +242,8 @@
                           {
                             "type": "item",
                             "item": "throne_settings",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -270,7 +280,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Colosseum Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -288,7 +299,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Cavern Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -306,7 +318,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Tower Base Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -324,7 +337,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Clock Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -342,7 +356,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Gallery Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -352,7 +367,7 @@
                           }
                         ]
                       }
-                    ],
+                    ]
                   },
                   {
                     "type": "array",
@@ -366,7 +381,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_City Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -384,7 +400,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Sandy Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -402,7 +419,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Circus Arena Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -420,7 +438,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Forest Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -438,7 +457,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Throne Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -462,7 +482,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Street Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -480,7 +501,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Forgotten Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -498,7 +520,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Burnt Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -516,7 +539,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Academy Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
@@ -534,7 +558,8 @@
                           {
                             "type": "item",
                             "item": "shuffle_Nest Key",
-                            "item_size": 32,
+                            "max_height": 32,
+                            "max_width": 32,
                             "margin": 4
                           },
                           {
