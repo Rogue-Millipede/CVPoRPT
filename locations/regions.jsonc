@@ -1,0 +1,542 @@
+[
+	{
+		"name": "Entrance Regions",
+		"children": [
+			{
+				"name": "Wind's Room", // Used for quests/shops
+				"access_rules": [
+					"@Entrance Regions/Hub",
+				]
+			},
+			{
+				"name": "Hub", // The entire starting area up through the hub
+				"access_rules": [
+					"", // starting region
+					"@Entrance Regions/Wind's Room",
+					"@Entrance Regions/Hub Painting Room, $is_smol",
+					"@Entrance Regions/Underground Passage, $small_uppies",
+					"@Entrance Regions/Upper Area",
+					"@Entrance Regions/Behemoth Area"
+				]
+			},
+			{
+				"name": "Behemoth Area", // The area past the first jump check, Behemoth's boss room
+				"access_rules": [
+					"@Entrance Regions/Hub, $small_uppies",
+					"@Entrance Regions/Post Behemoth, $boss_door_open|Colosseum Key"
+				]
+			},
+			{
+				"name": "Post Behemoth", // The area right of behemoth, for boss keys
+				"access_rules": [
+					"@Entrance Regions/Behemoth Area, $boss_door_open|Colosseum Key",
+					"@Buried Chamber Regions/Main",
+					"@Great Stairway Regions/Lower, $strongies"
+				]
+			},
+			{
+				"name": "Underground Passage", // The tunnel leading to the Nest of Evil portrait
+				"access_rules": [
+					"@Entrance Regions/Hub, $has_enough_portraits_for_nest"
+				]
+			},
+			{
+				"name": "Hub Painting Room", // The City of Haze portrait
+				"access_rules": [
+					"@Entrance Regions/Hub, $is_smol",
+					"@Entrance Regions/Hub, $has|puppet_master"
+				]
+			},
+			{
+				"name": "Upper Area", // The upper route from the statue room
+				"access_rules": [
+					"@Entrance Regions/Hub, $has|acrobat_cube, $has|stone_of_flight, $has_call_cube",
+					"@Entrance Regions/Hub, $big_uppies",
+					"@Great Stairway Regions/Entrance Connector"
+				]
+			}
+		]
+	},
+	{
+		"name": "Buried Chamber Regions",
+		"children": [
+			{
+				"name": "Main", // The ENTIRE buried Chamber, since it all falls under the same logic
+				"access_rules": [
+					"@Entrance Regions/Post Behemoth",
+					"@Great Stairway Regions/Lower"
+				]
+			}
+		]
+	},
+	{
+		"name": "Great Stairway Regions",
+		"children": [
+			{
+				"name": "Lower", // Ground level up to Keremet and the check afterwards
+				"access_rules": [
+					"@Entrance Regions/Post Behemoth, $strongies",
+					"@Buried Chamber Regions/Main",
+					"@Great Stairway Regions/Post Keremet, $boss_door_open|Cavern Key",
+					"@Great Stairway Regions/Staircases"
+				]
+			},
+			{
+				"name": "Staircases", // The big stairs rooms and surrounding areas
+				"access_rules": [
+					"@Great Stairway Regions/Lower, $has|stone_of_flight",
+					"@Great Stairway Regions/Lower, $big_uppies",
+					"@Great Stairway Regions/Post Keremet, $has|stone_of_flight",
+					"@Great Stairway Regions/Post Keremet, $big_uppies",
+					"@Great Stairway Regions/Underground Painting",
+					"@Great Stairway Regions/Entrance Connector",
+					"@Great Stairway Regions/Upper"
+				]
+			},
+			{
+				"name": "Post Keremet", // The item after Keremt, for boss keys
+				"access_rules": [
+					"@Great Stairway Regions/Lower, $boss_door_open|Cavern Key",
+					"@Great Stairway Regions/Staircases"
+				]
+			},
+			{
+				"name": "Entrance Connector", // The part that connects to the entrance and the wall switch.
+				// There's an awkward jump to the upper level that can't be made with acrobat.
+				"access_rules": [
+					"@Entrance Regions/Upper Area",
+					"@Great Stairway Regions/Upper"
+				]
+			},
+			{
+				"name": "Upper", // The towers to the left of the staircase rooms
+				"access_rules": [
+					"@Great Stairway Regions/Staircases, $small_uppies",
+					"@Great Stairway Regions/Staircases, $has|puppet_master",
+					"@Great Stairway Regions/Entrance Connector, $has|acrobat_cube, $has|puppet_master, $has_call_cube",
+					"@Great Stairway Regions/Entrance Connector, $medium_uppies",
+					"@Great Stairway Regions/Entrance Connector, $has|acrobat_cube, $has|speed_up, $has_call_cube",
+					"@Great Stairway Regions/Central Painting Area",
+					"@Tower of Death Regions/Belt Area, $can_cast_spell, $has|owl_morph",
+					"@Tower of Death Regions/Belt Area, $can_cast_spell, $has|toad_morph"
+				]
+			},
+			{
+				"name": "Central Painting Area", // The painting but also the secret room with the nun robes
+				"access_rules": [
+					"@Great Stairway Regions/Upper, $small_uppies"
+				]
+			},
+			{
+				"name": "Underground Painting", // The sandy graves portrait room
+				"access_rules": [
+					"@Great Stairway Regions/Staircases"
+				]
+			}
+		]
+	},
+	{
+		"name": "Tower of Death Regions",
+		"children": [
+			{
+				"name": "Bottom",
+				"access_rules": [
+					"@Great Stairway Regions/Staircases, $strongies",
+					"@Tower of Death Regions/Motorcycles",
+					"@Tower of Death Regions/First Gear Room"
+				]
+			},
+			{
+				"name": "Motorcycles",
+				"access_rules": [
+					"@Tower of Death Regions/Bottom, $has|cog, $boss_door_open|Tower Base Key"
+				]
+			},
+			{
+				"name": "Belt Area",
+				"access_rules": [
+					"@Great Stairway Regions/Upper, $can_cast_spell, $has|owl_morph",
+					"@Great Stairway Regions/Upper, $can_cast_spell, $has|toad_morph",
+					"@Tower of Death Regions/Motorcycles, $has|wait_cube, $has_call_cube, $has_change_cube",
+					"@Tower of Death Regions/Painting Room",
+					"@Master's Keep Regions/Bridge"
+				]
+			},
+			{
+				"name": "Painting Room",
+				"access_rules": [
+					"@Tower of Death Regions/Belt Area"
+				]
+			},
+			{
+				"name": "Elevator Room",
+				"access_rules": [
+					"@Tower of Death Regions/Top of the Tower",
+					"@Master's Keep Regions/Bridge",
+					"@Master's Keep Regions/Lower, $has|tower_elevator_active"
+				]
+			},
+			{
+				"name": "First Gear Room",
+				"access_rules": [
+					"@Tower of Death Regions/Bottom, $small_uppies",
+					"@Tower of Death Regions/Elevator Room",
+					"@Tower of Death Regions/Ascent, $can_cast_spell, $has|owl_morph",
+					"@Tower of Death Regions/Ascent, $can_cast_spell, $has|toad_morph"
+				]
+			},
+			{
+				"name": "Ascent",
+				"access_rules": [
+					"@Tower of Death Regions/First Gear Room, $can_cast_spell, $has|owl_morph",
+					"@Tower of Death Regions/First Gear Room, $can_cast_spell, $has|toad_morph",
+					"@Tower of Death Regions/Second Gear Room"
+				]
+			},
+			{
+				"name": "Second Gear Room",
+				"access_rules": [
+					"@Tower of Death Regions/Ascent, $medium_uppies",
+					"@Tower of Death Regions/Top of the Tower, $boss_door_open|Clock Key"
+				]
+			},
+			{
+				"name": "Top of the Tower",
+				"access_rules": [
+					"@Tower of Death Regions/Elevator Room, $big_uppies",
+					"@Tower of Death Regions/Second Gear Room, $boss_door_open|Clock Key"
+				]
+			}
+		]
+	},
+	{
+		"name": "Master's Keep Regions",
+		"children": [
+			{
+				"name": "Bridge",
+				"access_rules": [
+					"@Tower of Death Regions/Belt Area",
+					"@Tower of Death Regions/Elevator Room",
+					"@Master's Keep Regions/Lower"
+				]
+			},
+			{
+				"name": "Lower",
+				"access_rules": [
+					"@Tower of Death Regions/Elevator Room, $small_uppies, $has|tower_elevator_active",
+					"@Master's Keep Regions/Main"
+				]
+			},
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Master's Keep Regions/Lower, $medium_uppies",
+					"@Master's Keep Regions/Lower, $small_uppies, $has|puppet_master",
+					"@Master's Keep Regions/Upper Quarters"
+				]
+			},
+			{
+				"name": "Upper Quarters",
+				"access_rules": [
+					"@Master's Keep Regions/Main, $medium_uppies",
+					"@Master's Keep Regions/Main, $small_uppies, $has|puppet_master"
+				]
+			},
+			{
+				"name": "Portrait Room",
+				"access_rules": [
+					"@Master's Keep Regions/Upper Quarters, $can_purify_sisters, $boss_door_open|Gallery Key"
+				]
+			}
+		]
+	},
+	{
+		"name": "Throne Room Regions",
+		"children": [
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Master's Keep Regions/Upper Quarters, $throne_available"
+				]
+			}
+		]
+	},
+	{
+		"name": "City of Haze Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Entrance Regions/Hub Painting Room, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_city_of_haze",
+					"@Entrance Regions/Underground Passage, $has|passage_city_of_haze",
+					"@Great Stairway Regions/Underground Painting, $has|underground_city_of_haze",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_city_of_haze",
+					"@Tower of Death Regions/Painting Room, $has|tower_city_of_haze, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_city_of_haze",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_city_of_haze",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_city_of_haze",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_city_of_haze"
+				]
+			},
+			{
+				"name": "East",
+				"access_rules": [
+					"@City of Haze Regions/Start, $has|puppet_master",
+					"@City of Haze Regions/Start, $has_change_cube, $has_call_cube"
+				]
+			},
+			{
+				"name": "Post-Boss",
+				"access_rules": [
+					"@City of Haze Regions/East, $boss_door_open|City Key"
+				]
+			}
+		]
+	},
+	{
+		"name": "13th Street Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_13th_street",
+					"@Entrance Regions/Underground Passage, $has|passage_13th_street",
+					"@Great Stairway Regions/Underground Painting, $has|underground_13th_street",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_13th_street",
+					"@Tower of Death Regions/Painting Room, $has|tower_13th_street, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_13th_street",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_13th_street",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_13th_street",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_13th_street"
+				]
+			},
+			{
+				"name": "Main",
+				"access_rules": [
+					"@13th Street Regions/Start, $has|strength_glove, $has|push_cube, $has_call_cube"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sandy Grave Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Great Stairway Regions/Underground Painting, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_sandy_grave",
+					"@Entrance Regions/Underground Passage, $has|passage_sandy_grave",
+					"@Great Stairway Regions/Underground Painting, $has|underground_sandy_grave",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_sandy_grave",
+					"@Tower of Death Regions/Painting Room, $has|tower_sandy_grave, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_sandy_grave",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_sandy_grave",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_sandy_grave",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_sandy_grave"
+				]
+			},
+			{
+				"name": "Upper Pyramid",
+				"access_rules": [
+					"@Sandy Grave Regions/Start, $small_uppies, $has|puppet_master",
+					"@Sandy Grave Regions/Start, $medium_uppies"
+				]
+			},
+			{
+				"name": "Pyramid Top",
+				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid, $medium_uppies"
+				]
+			}
+		]
+	},
+	{
+		"name": "Forgotten City Regions",
+		"children": [
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_forgotten_city",
+					"@Entrance Regions/Underground Passage, $has|passage_forgotten_city",
+					"@Great Stairway Regions/Underground Painting, $has|underground_forgotten_city",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_forgotten_city",
+					"@Tower of Death Regions/Painting Room, $has|tower_forgotten_city, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_forgotten_city",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_forgotten_city",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_forgotten_city",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_forgotten_city"
+				]
+			},
+			{
+				"name": "Inner",
+				"access_rules": [
+					"@Forgotten City Regions/Main, $medium_uppies",
+					"@Forgotten City Regions/Main, $has|puppet_master"
+				]
+			},
+			{
+				"name": "Inner Upper",
+				"access_rules": [
+					"@Forgotten City Regions/Inner, $medium_uppies",
+					"@Forgotten City Regions/Inner, $has|puppet_master, $has|acrobat_cube, $has_call_cube"
+				]
+			}
+		]
+	},
+	{
+		"name": "Nation of Fools Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Great Stairway Regions/Central Painting Area, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_nation_of_fools",
+					"@Entrance Regions/Underground Passage, $has|passage_nation_of_fools",
+					"@Great Stairway Regions/Underground Painting, $has|underground_nation_of_fools",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_nation_of_fools",
+					"@Tower of Death Regions/Painting Room, $has|tower_nation_of_fools, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_nation_of_fools",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_nation_of_fools",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_nation_of_fools",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_nation_of_fools"
+				]
+			},
+			{
+				"name": "Right Lower",
+				"access_rules": [
+					"@Nation of Fools Regions/Start, $small_uppies",
+					"@Nation of Fools Regions/Start, $has|puppet_master"
+				]
+			},
+			{
+				"name": "Right Lower Medium Room",
+				"access_rules": [
+					"@Nation of Fools Regions/Right Lower, $small_uppies",
+				]
+			},
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Nation of Fools Regions/Start, $medium_uppies",
+					"@Nation of Fools Regions/Start, $has_call_cube, $has|acrobat_cube, $has|puppet_master"
+				]
+			}
+		]
+	},
+	{
+		"name": "Forest of Doom Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Tower of Death Regions/Painting Room, $has|portrait_shuffle_off, $has|stella_locket",
+					"@Entrance Regions/Hub Painting Room, $has|hub_forest_of_doom",
+					"@Entrance Regions/Underground Passage, $has|passage_forest_of_doom",
+					"@Great Stairway Regions/Underground Painting, $has|underground_forest_of_doom",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_forest_of_doom",
+					"@Tower of Death Regions/Painting Room, $has|tower_forest_of_doom, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_forest_of_doom",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_forest_of_doom",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_forest_of_doom",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_forest_of_doom"
+				]
+			},
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Forest of Doom Regions/Start, $small_uppies"
+				]
+			},
+			{
+				"name": "Cave",
+				"access_rules": [
+					"@Forest of Doom Regions/Main, $strongies"
+				]
+			}
+		]
+	},
+	{
+		"name": "Dark Academy Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_dark_academy",
+					"@Entrance Regions/Underground Passage, $has|passage_dark_academy",
+					"@Great Stairway Regions/Underground Painting, $has|underground_dark_academy",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_dark_academy",
+					"@Tower of Death Regions/Painting Room, $has|tower_dark_academy, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_dark_academy",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_dark_academy",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_dark_academy",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_dark_academy"
+				]
+			},
+			{
+				"name": "Right Building",
+				"access_rules": [
+					"@Dark Academy Regions/Start, $small_uppies",
+					"@Dark Academy Regions/Start, $has|puppet_master"
+				]
+			},
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Dark Academy Regions/Right Building, $big_uppies"
+				]
+			}
+		]
+	},
+	{
+		"name": "Burnt Paradise Regions",
+		"children": [
+			{
+				"name": "Start",
+				"access_rules": [
+					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
+					"@Entrance Regions/Hub Painting Room, $has|hub_burnt_paradise",
+					"@Entrance Regions/Underground Passage, $has|passage_burnt_paradise",
+					"@Great Stairway Regions/Underground Painting, $has|underground_burnt_paradise",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_burnt_paradise",
+					"@Tower of Death Regions/Painting Room, $has|tower_burnt_paradise, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_burnt_paradise",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_burnt_paradise",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_burnt_paradise",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_burnt_paradise"
+				]
+			},
+			{
+				"name": "Entrance",
+				"access_rules": [
+					"@Burnt Paradise Regions/Start, $small_uppies",
+					"@Burnt Paradise Regions/Start, $has|puppet_master"
+				]
+			}
+		]
+	},
+	{
+		"name": "Nest of Evil Regions",
+		"children": [
+			{
+				"name": "Main",
+				"access_rules": [
+					"@Entrance Regions/Underground Passage, $has|portrait_shuffle_off, $nest_not_removed",
+					"@Entrance Regions/Hub Painting Room, $has|hub_nest_of_evil, $nest_not_removed",
+					"@Entrance Regions/Underground Passage, $has|passage_nest_of_evil, $nest_not_removed",
+					"@Great Stairway Regions/Underground Painting, $has|underground_nest_of_evil, $nest_not_removed",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_nest_of_evil, $nest_not_removed",
+					"@Tower of Death Regions/Painting Room, $has|tower_nest_of_evil, $nest_not_removed, $has|stella_locket",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_nest_of_evil, $nest_not_removed",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_nest_of_evil, $nest_not_removed",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_nest_of_evil, $nest_not_removed",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_nest_of_evil, $nest_not_removed"
+				]
+			}
+		]
+	}
+]

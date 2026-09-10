@@ -1,0 +1,118 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "4, 4",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "puppet_master",
+                "toad_morph",
+                "owl_morph",
+                "sanctuary",
+                "speed_up"
+              ],
+              [
+                "change_cube",
+                "call_cube",
+                "skill_cube",
+                "cog"
+              ],
+              [
+                "wait_cube",
+                "acrobat_cube",
+                "push_cube",
+                "stella_locket"
+              ],
+              [
+                "lizard_tail",
+                "stone_of_flight",
+                "griffon_wing",
+                "strength_glove",
+                "tower_elevator_active"
+              ],
+              [
+                "portrait_clear",
+                "death_defeated",
+                "brauner_defeated",
+                "doppelganger_defeated",
+                "dracula_defeated"
+              ]
+            ]  
+          },
+          {
+            "type": "group",
+            "header": "Boss Keys",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "Colosseum Key",
+                    "Cavern Key",
+                    "Tower Base Key",
+                    "Clock Key",
+                    "Gallery Key"
+                  ],
+                  [
+                    "City Key",
+                    "Sandy Key",
+                    "Circus Arena Key",
+                    "Forest Key",
+                    "Throne Key"
+                  ],
+                  [
+                    "Street Key",
+                    "Forgotten Key",
+                    "Burnt Key",
+                    "Academy Key",
+                    "Nest Key"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "header": "Portraits",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "hub_portrait",
+                    "underground_portrait",
+                    "stairs_portrait",
+                    "tower_portrait"
+                  ],
+                  [
+                    "brauner_portrait_1",
+                    "brauner_portrait_2",
+                    "brauner_portrait_3",
+                    "brauner_portrait_4",
+                    "passage_portrait"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Cog",
+    "type": "toggle",
+    "img": "images/items/cog.png",
+    "codes": "cog"
+  },
+  {
+    "name": "Colosseum Key",
+    "type": "toggle",
+    "img": "images/items/behemoth_key.png",
+    "codes": "Colosseum Key"
+  },
+  {
+    "name": "Cavern Key",
+    "type": "toggle",
+    "img": "images/items/keremet_key.png",
+    "codes": "Cavern Key"
+  },
+  {
+    "name": "Tower Base Key",
+    "type": "toggle",
+    "img": "images/items/stella_key.png",
+    "codes": "Tower Base Key"
+  },
+  {
+    "name": "Clock Key",
+    "type": "toggle",
+    "img": "images/items/death_key.png",
+    "codes": "Clock Key"
+  },
+  {
+    "name": "Gallery Key",
+    "type": "toggle",
+    "img": "images/items/sisters_key.png",
+    "codes": "Gallery Key"
+  },
+  {
+    "name": "Throne Key",
+    "type": "toggle",
+    "img": "images/items/dracula_key.png",
+    "codes": "Throne Key"
+  },
+  {
+    "name": "City Key",
+    "type": "toggle",
+    "img": "images/items/dullahan_key.png",
+    "codes": "City Key"
+  },
+  {
+    "name": "Sandy Key",
+    "type": "toggle",
+    "img": "images/items/astarte_key.png",
+    "codes": "Sandy Key"
+  },
+  {
+    "name": "Circus Arena Key",
+    "type": "toggle",
+    "img": "images/items/legion_key.png",
+    "codes": "Circus Arena Key"
+  },
+  {
+    "name": "Forest Key",
+    "type": "toggle",
+    "img": "images/items/dagon_key.png",
+    "codes": "Forest Key"
+  },
+  {
+    "name": "Street Key",
+    "type": "toggle",
+    "img": "images/items/werewolf_key.png",
+    "codes": "Street Key"
+  },
+  {
+    "name": "Forgotten Key",
+    "type": "toggle",
+    "img": "images/items/mummy_man_key.png",
+    "codes": "Forgotten Key"
+  },
+  {
+    "name": "Burnt Key",
+    "type": "toggle",
+    "img": "images/items/medusa_key.png",
+    "codes": "Burnt Key"
+  },
+  {
+    "name": "Academy Key",
+    "type": "toggle",
+    "img": "images/items/creature_key.png",
+    "codes": "Academy Key"
+  },
+  {
+    "name": "Nest Key",
+    "type": "toggle",
+    "img": "images/items/doppelganger_key.png",
+    "codes": "Nest Key"
+  },
+  {
+    "name": "Stella's Locket",
+    "type": "toggle",
+    "img": "images/items/stella_locket.png",
+    "codes": "stella_locket"
+  },
+  {
+    "name": "Puppet Master",
+    "type": "toggle",
+    "img": "images/items/puppet_master.png",
+    "codes": "puppet_master"
+  },
+  {
+    "name": "Toad Morph",
+    "type": "toggle",
+    "img": "images/items/toad_morph.png",
+    "codes": "toad_morph"
+  },
+  {
+    "name": "Owl Morph",
+    "type": "toggle",
+    "img": "images/items/owl_morph.png",
+    "codes": "owl_morph"
+  },
+  {
+    "name": "Sanctuary",
+    "type": "toggle",
+    "img": "images/items/sanctuary.png",
+    "codes": "sanctuary"
+  },
+  {
+    "name": "Speed Up",
+    "type": "toggle",
+    "img": "images/items/speed_up.png",
+    "codes": "speed_up"
+  },
+  {
+    "name": "Change Cube",
+    "type": "toggle",
+    "img": "images/items/change_cube.png",
+    "codes": "change_cube"
+  },
+  {
+    "name": "Call Cube",
+    "type": "toggle",
+    "img": "images/items/call_cube.png",
+    "codes": "call_cube"
+  },
+  {
+    "name": "Skill Cube",
+    "type": "toggle",
+    "img": "images/items/skill_cube.png",
+    "codes": "skill_cube"
+  },
+  {
+    "name": "Wait Cube",
+    "type": "toggle",
+    "img": "images/items/wait_cube.png",
+    "codes": "wait_cube"
+  },
+  {
+    "name": "Acrobat Cube",
+    "type": "toggle",
+    "img": "images/items/acrobat_cube.png",
+    "codes": "acrobat_cube"
+  },
+  {
+    "name": "Push Cube",
+    "type": "toggle",
+    "img": "images/items/push_cube.png",
+    "codes": "push_cube"
+  },
+  {
+    "name": "Lizard Tail",
+    "type": "toggle",
+    "img": "images/items/lizard_tail.png",
+    "codes": "lizard_tail"
+  },
+  {
+    "name": "Stone of Flight",
+    "type": "toggle",
+    "img": "images/items/stone_of_flight.png",
+    "codes": "stone_of_flight"
+  },
+  {
+    "name": "Griffon Wing",
+    "type": "toggle",
+    "img": "images/items/griffon_wing.png",
+    "codes": "griffon_wing"
+  },
+  {
+    "name": "Strength Glove",
+    "type": "toggle",
+    "img": "images/items/strength_glove.png",
+    "codes": "strength_glove"
+  },
+  {
+    "name": "Portrait Clear",
+    "type": "consumable",
+    "img": "images/portraits/dracula_castle.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "portrait_clear"
+  },
+  {
+    "name": "Death Defeated",
+    "type": "toggle",
+    "img": "images/bosses/death.png",
+    "codes": "death_defeated"
+  },
+  {
+    "name": "Tower Elevator Active",
+    "type": "toggle",
+    "img": "images/items/elevator.png",
+    "codes": "tower_elevator_active"
+  },
+  {
+    "name": "Brauner Defeated",
+    "type": "toggle",
+    "img": "images/bosses/brauner.png",
+    "codes": "brauner_defeated"
+  },
+  {
+    "name": "Dracula Defeated",
+    "type": "toggle",
+    "img": "images/bosses/dracula.png",
+    "codes": "dracula_defeated"
+  },
+  {
+    "name": "Doppelganger Defeated",
+    "type": "toggle",
+    "img": "images/bosses/doppelganger.png",
+    "codes": "doppelganger_defeated"
+  },
+  {
+    "name": "Dullahan Defeated",
+    "type": "toggle",
+    "img": "images/bosses/dullahan.png",
+    "codes": "dullahan_defeated"
+  },
+  {
+    "name": "Astarte Defeated",
+    "type": "toggle",
+    "img": "images/bosses/astarte.png",
+    "codes": "astarte_defeated"
+  },
+  {
+    "name": "Legion Defeated",
+    "type": "toggle",
+    "img": "images/bosses/legion.png",
+    "codes": "legion_defeated"
+  },
+  {
+    "name": "Dagon Defeated",
+    "type": "toggle",
+    "img": "images/bosses/dagon.png",
+    "codes": "dagon_defeated"
+  },
+  {
+    "name": "Werewolf Defeated",
+    "type": "toggle",
+    "img": "images/bosses/werewolf.png",
+    "codes": "werewolf_defeated"
+  },
+  {
+    "name": "Mummy Man Defeated",
+    "type": "toggle",
+    "img": "images/bosses/mummy_man.png",
+    "codes": "mummy_man_defeated"
+  },
+  {
+    "name": "Medusa Defeated",
+    "type": "toggle",
+    "img": "images/bosses/medusa.png",
+    "codes": "medusa_defeated"
+  },
+  {
+    "name": "Creature Defeated",
+    "type": "toggle",
+    "img": "images/bosses/creature.png",
+    "codes": "creature_defeated"
+  }
+]

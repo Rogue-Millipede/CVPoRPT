@@ -1,0 +1,26 @@
+{
+  "name": "Castlevania Portrait of Ruin for PopTracker",
+  "game_name": "Castlevania Portrait of Ruin",
+  "package_version": "0.1.0",
+  "package_uid": "cvpor_pack",
+  "author": "Rogue_Millipede",
+  "min_poptracker_version": "0.26.2",
+  // put the version you tested against here!
+  "target_poptracker_version": "0.35.4",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        // enables AP autotracking interface - remove if not needed
+        "ap"
+      ]
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only",
+      "flags": [
+        // enables AP autotracking interface - remove if not needed
+        "ap"
+      ]
+    }
+  }
+}

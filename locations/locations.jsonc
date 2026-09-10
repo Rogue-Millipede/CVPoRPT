@@ -1,0 +1,5350 @@
+[
+  {
+    "name": "Entrance - Hub",
+    "access_rules": [
+      "@Entrance Regions/Hub"
+    ],
+    "children": [
+      {
+        "name": "Entrance: Drawbridge Pit Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 39,
+            "y": 135
+          },
+          {
+            "map": "global_map_h",
+            "x": 295,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Drawbridge Switch Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 39,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 295,
+            "y": 131
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Drawbridge Upper Item",
+        "access_rules": [
+          "$big_uppies",
+          "$has|acrobat_cube, $has|stone_of_flight, $has|puppet_master, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 35,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 291,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Entrance: First Passage Upper Item",
+        "sections": [
+          {
+            "item_count": 1
+          },
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 59,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 315,
+            "y": 131
+          }
+        ]
+      },
+      {
+        "name": "Entrance: First Passage Lower Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 59,
+            "y": 135
+          },
+          {
+            "map": "global_map_h",
+            "x": 315,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Entrance: First Passage Hidden Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 55,
+            "y": 135
+          },
+          {
+            "map": "global_map_h",
+            "x": 311,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Hub Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 55,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 311,
+            "y": 123
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Above Hub",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 55,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 311,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Statue Room Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 75,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 331,
+            "y": 123
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Statue Room Above Statue",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 75,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 331,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Behemoth Chase Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 83,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 339,
+            "y": 131
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Double Room Lower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 87,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 343,
+            "y": 131
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Entrance - Behemoth Area",
+    "access_rules": [
+      "@Entrance Regions/Behemoth Area"
+    ],
+    "children": [
+      {
+        "name": "Entrance: Double Room Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 87,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 343,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Pre-Behemoth Boss Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 95,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 351,
+            "y": 127
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Entrance - Post Behemoth",
+    "access_rules": [
+      "@Entrance Regions/Post Behemoth"
+    ],
+    "children": [
+      {
+        "name": "Entrance: Right Hidden Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 103,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 359,
+            "y": 131
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Entrance - Upper Area",
+    "access_rules": [
+      "@Entrance Regions/Upper Area"
+    ],
+    "children": [
+      {
+        "name": "Entrance: Lilith Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 75,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 331,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Above Metal Block Room",
+        "access_rules": [
+          "$big_uppies",
+          "$has|stone_of_flight, $has|puppet_master",
+          "$strongies, $has|stone_of_flight",
+          "$strongies, $has|acrobat_cube, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 95,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 351,
+            "y": 107
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Center Hidden Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 87,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 343,
+            "y": 123
+          }
+        ]
+      },
+      {
+        "name": "Entrance: Beyond Great Armor Hallway",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 107,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 363,
+            "y": 123
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Buried Chamber",
+    "access_rules": [
+      "@Buried Chamber Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "Buried Chamber: Westmost Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 71,
+            "y": 155
+          },
+          {
+            "map": "global_map_h",
+            "x": 327,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Central Secret",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 115,
+            "y": 151
+          },
+          {
+            "map": "global_map_h",
+            "x": 371,
+            "y": 151
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: West Shaft",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 83,
+            "y": 151
+          },
+          {
+            "map": "global_map_h",
+            "x": 339,
+            "y": 151
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Central Hall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 107,
+            "y": 159
+          },
+          {
+            "map": "global_map_h",
+            "x": 363,
+            "y": 159
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Hidden Wall Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 175,
+            "y": 163
+          },
+          {
+            "map": "global_map_h",
+            "x": 431,
+            "y": 163
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Right Secret",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 163,
+            "y": 155
+          },
+          {
+            "map": "global_map_h",
+            "x": 419,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Right Shade Hall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 163,
+            "y": 151
+          },
+          {
+            "map": "global_map_h",
+            "x": 419,
+            "y": 151
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Final Shaft Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 167,
+            "y": 143
+          },
+          {
+            "map": "global_map_h",
+            "x": 423,
+            "y": 143
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Right Shaft Top",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 171,
+            "y": 151
+          },
+          {
+            "map": "global_map_h",
+            "x": 427,
+            "y": 151
+          }
+        ]
+      },
+      {
+        "name": "Buried Chamber: Eastmost Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 183,
+            "y": 151
+          },
+          {
+            "map": "global_map_h",
+            "x": 439,
+            "y": 151
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Stairway - Post Keremet",
+    "access_rules": [
+      "@Great Stairway Regions/Post Keremet"
+    ],
+    "children": [
+      {
+        "name": "Great Stairway: After Keremet Lower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 191,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 447,
+            "y": 127
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Stairway - Lower",
+    "access_rules": [
+      "@Great Stairway Regions/Lower"
+    ],
+    "children": [
+      {
+        "name": "Great Stairway: Before Keremet Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 175,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 431,
+            "y": 131
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Cavern Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 185,
+            "y": 127,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 441,
+            "y": 127,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Stairway - Central Painting Area",
+    "access_rules": [
+      "@Great Stairway Regions/Central Painting Area"
+    ],
+    "children": [
+      {
+        "name": "Great Stairway: Left Loft",
+        "access_rules": [
+          "$small_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 123,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 379,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Left Loft Lower",
+        "access_rules": [
+          "$small_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 119,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 375,
+            "y": 87
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Stairway - Entrance Connector",
+    "access_rules": [
+      "@Great Stairway Regions/Entrance Connector"
+    ],
+    "children": [
+      {
+        "name": "Great Stairway: Central Nook",
+        "access_rules": [
+          "$medium_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 119,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 375,
+            "y": 107
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Stairway - Staircases",
+    "access_rules": [
+      "@Great Stairway Regions/Staircases"
+    ],
+    "children": [
+      {
+        "name": "Great Stairway: Upper Grand Staircase Corner Nook",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 159,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 415,
+            "y": 107
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Upper Grand Staircase Middle Alcove",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|speed_up, $has|puppet_master, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 155,
+            "y": 103
+          },
+          {
+            "map": "global_map_h",
+            "x": 411,
+            "y": 103
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Upper Grand Staircase Lower Alcove",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master",
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 151,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 407,
+            "y": 107
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Upper Grand Staircase Upper Alcove",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|puppet_master",
+          "$can_cast_spell, $has|speed_up"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 159,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 415,
+            "y": 99
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Upper Grand Staircase Top Left Item",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master",
+          "$can_cast_spell, $has|speed_up"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 147,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 403,
+            "y": 99
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Lower Grand Staircase Corner Nook",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 139,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Lower Grand Staircase Middle Alcove",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|speed_up, $has|puppet_master, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 135,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 391,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Lower Grand Staircase Lower Alcove",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master",
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 131,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 387,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Lower Grand Staircase Upper Alcove",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|puppet_master",
+          "$can_cast_spell, $has|speed_up"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 139,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Upper Underground Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 191,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 447,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: After Keremet Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 191,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 447,
+            "y": 123
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Big Underground Room Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 123
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Big Underground Room Hidden Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Big Underground Room Lower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 207,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 463,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Underground Hidden Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 219,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 475,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Underground East Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 111
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Stairway - Upper",
+    "access_rules": [
+      "@Great Stairway Regions/Upper"
+    ],
+    "children": [
+      {
+        "name": "Great Stairway: Connector Pipe Left",
+        "access_rules": [
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 143,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 399,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Connector Pipe Right",
+        "access_rules": [
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 147,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 403,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Central Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 123,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 379,
+            "y": 107
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Right Loft",
+        "access_rules": [
+          "$small_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 137,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 393,
+            "y": 79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - Bottom",
+    "access_rules": [
+      "@Tower of Death Regions/Bottom"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Lower Passage Hidden Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 99
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Stella Item",
+        "access_rules": [
+          "$boss_door_open|Tower Base Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 205,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 461,
+            "y": 91
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - First Gear Room",
+    "access_rules": [
+      "@Tower of Death Regions/First Gear Room"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Lower Gears Room Spike Shaft",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 223,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 479,
+            "y": 79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - Motorcycles",
+    "access_rules": [
+      "@Tower of Death Regions/Motorcycles"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Above Motorcycles",
+        "access_rules": [
+          "$big_uppies",
+          "$has|stone_of_flight, $has|acrobat_cube, $has_call_cube",
+          "$has|puppet_master, $has|stone_of_flight"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 187,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 443,
+            "y": 87
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - Belt Area",
+    "access_rules": [
+      "@Tower of Death Regions/Belt Area"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Rampart Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 155,
+            "y": 55
+          },
+          {
+            "map": "global_map_h",
+            "x": 411,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Hidden Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 155,
+            "y": 75
+          },
+          {
+            "map": "global_map_h",
+            "x": 411,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Gear Belt Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 159,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 415,
+            "y": 79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - Elevator Room",
+    "access_rules": [
+      "@Tower of Death Regions/Elevator Room"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Secret Room",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|puppet_master, $has|acrobat_cube, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 75
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Elevator Room Lower",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 211,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 467,
+            "y": 71
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Elevator Room Middle",
+        "access_rules": [
+          "$has|tower_elevator_active"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 211,
+            "y": 63
+          },
+          {
+            "map": "global_map_h",
+            "x": 467,
+            "y": 63
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Elevator Room Top",
+        "access_rules": [
+          "$has|tower_elevator_active"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 211,
+            "y": 39
+          },
+          {
+            "map": "global_map_h",
+            "x": 467,
+            "y": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - Second Gear Room",
+    "access_rules": [
+      "@Tower of Death Regions/Second Gear Room"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Second Gears Room Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 219,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 475,
+            "y": 67
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Passage Hidden Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 71
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Second Gears Room Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 223,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 479,
+            "y": 67
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Top Gears Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 215,
+            "y": 39
+          },
+          {
+            "map": "global_map_h",
+            "x": 471,
+            "y": 39
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Third Gears Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 219,
+            "y": 55
+          },
+          {
+            "map": "global_map_h",
+            "x": 475,
+            "y": 55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Death - Top of the Tower",
+    "access_rules": [
+      "@Tower of Death Regions/Top of the Tower"
+    ],
+    "children": [
+      {
+        "name": "Tower of Death: Top of the Tower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 207,
+            "y": 35
+          },
+          {
+            "map": "global_map_h",
+            "x": 463,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Elevator Switch",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 211,
+            "y": 35,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 467,
+            "y": 35,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tower of Death: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Clock Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 217,
+            "y": 35,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 473,
+            "y": 35,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Master's Keep - Lower",
+    "access_rules": [
+      "@Master's Keep Regions/Lower"
+    ],
+    "children": [
+      {
+        "name": "Master's Keep: Entrance",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 199,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 455,
+            "y": 71
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Master's Keep - Main",
+    "access_rules": [
+      "@Master's Keep Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "Master's Keep: Hidden Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 171,
+            "y": 47
+          },
+          {
+            "map": "global_map_h",
+            "x": 427,
+            "y": 47
+          }
+        ]
+      },
+      {
+        "name": "Master's Keep: Right Square Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 195,
+            "y": 55
+          },
+          {
+            "map": "global_map_h",
+            "x": 451,
+            "y": 55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Master's Keep - Portrait Room",
+    "access_rules": [
+      "@Master's Keep Regions/Portrait Room"
+    ],
+    "children": [
+      {
+        "name": "Master's Keep: Whip Trial",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 185,
+            "y": 39
+          },
+          {
+            "map": "global_map_h",
+            "x": 441,
+            "y": 39
+          }
+        ]
+      },
+      {
+        "name": "Lost Gallery: Studio Portrait Fight",
+        "access_rules": [
+          "$brauner_available"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 177,
+            "y": 39,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 433,
+            "y": 39,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "City of Haze",
+    "access_rules": [
+      "@City of Haze Regions/Start"
+    ],
+    "children": [
+      {
+        "name": "City of Haze: Meat Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 39,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 39,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: First Passage",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 43,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 43,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: First Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 51,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 51,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 59,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 59,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Winding Rooms",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 59,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 59,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Chunky Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 69,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 69,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Right Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 75,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 75,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Bar Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 59,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 59,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Bar Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 63,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 63,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Register Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 71,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 71,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Axe Armor Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 79,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 79,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Center Room Top",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 95,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 95,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Center Room Lower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 95,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 95,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Bread Shelf",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 115,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 115,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Left Plaza",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 119,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 119,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Before Cart Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 91,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 91,
+            "y": 291
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "City of Haze - East",
+    "access_rules": [
+      "@City of Haze Regions/East"
+    ],
+    "children": [
+      {
+        "name": "City of Haze: Cart Secret Left",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 115,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 115,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Cart Secret Right",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 119,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 119,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Church Hallway",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 147,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 147,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Central Hallway Stairs",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 143,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 143,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Underground Square Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 203,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 203,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Underground Secret Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 203,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 203,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Underground Square Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 191,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 191,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Central Hallway Lower",
+        "access_rules": [
+          "$is_smol"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 147,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 147,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Boss Room",
+        "access_rules": [
+          "$boss_door_open|City Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 205,
+            "y": 83,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 205,
+            "y": 275,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "City of Haze - Post-Boss",
+    "access_rules": [
+      "@City of Haze Regions/Post-Boss"
+    ],
+    "children": [
+      {
+        "name": "City of Haze: Heavy Cart Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 147,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 147,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Axe Courtyard",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 127,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 127,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Left Dance Hall Left Item",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 163,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 163,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Left Dance Hall Right Item",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 167,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 167,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Dance Halls Basement",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 175,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 175,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Right Dance Hall Item",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 191,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 191,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Right Dance Hall Secret Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 191,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 191,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Post-Boss Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 197,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 197,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Tunnel Room Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 183,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 183,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Tunnel Room Left",
+        "access_rules": [
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 179,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 179,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Dance Halls Vertical Hallway",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 179,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 179,
+            "y": 271
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "13th Street - Main",
+    "access_rules": [
+      "@13th Street Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "13th Street: Triple Moth Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 131,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 131,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Behind Final Guard",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 79,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 79,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Three Amalaric Snipers",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 63,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 63,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Many Nyxes Room",
+        "access_rules": [
+          "$medium_uppies, $has|puppet_master, $has|lizard_tail",
+          "$medium_uppies, $can_cast_spell, $has|owl_morph",
+          "$medium_uppies, $can_cast_spell, $has|toad_morph",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube, $has|puppet_master, $has|lizard_tail",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube, $can_cast_spell, $has|owl_morph",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube, $can_cast_spell, $has|toad_morph"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 71,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 71,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Train Room Secret Right",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 175,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 175,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Underground Secret Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 95,
+            "y": 103
+          },
+          {
+            "map": "global_map_h",
+            "x": 95,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Underground Demon Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 91,
+            "y": 103
+          },
+          {
+            "map": "global_map_h",
+            "x": 91,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Left Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 99,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 99,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Secret Floor Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 59,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 59,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "13th Street: East Courtyard",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 163,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 163,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Near Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 127,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 127,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Bakery Middle",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 147,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 147,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Right Dance Hall Top Right",
+        "access_rules": [
+          "$small_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 87,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 87,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Bakery Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 143,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 143,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Square Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 151,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 151,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Bakery Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 151,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 151,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Right Dance Hall Top Left",
+        "access_rules": [
+          "$small_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 83,
+            "y": 71
+          },
+          {
+            "map": "global_map_h",
+            "x": 83,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Train Room Secret Left",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 171,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 171,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Street Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 45,
+            "y": 83,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 45,
+            "y": 467,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sandy Grave",
+    "access_rules": [
+      "@Sandy Grave Regions/Start"
+    ],
+    "children": [
+      {
+        "name": "Sandy Grave: Sandworm Stomach",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 91,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 347,
+            "y": 299
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: On Statue",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 107,
+            "y": 103
+          },
+          {
+            "map": "global_map_h",
+            "x": 363,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Behind Bricks",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 99,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 355,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Left Trap",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 133,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 389,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Right Trap",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 137,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 393,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Bottom Right Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 175,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 431,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Lower Big Underground Room Bottom",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 139,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 303
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Lower Big Underground Room Top",
+        "access_rules": [
+          "$medium_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 143,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 399,
+            "y": 299
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Lonely Mimic Alcove",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 159,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 415,
+            "y": 303
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Boulder Room Corner Alcove",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 171,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 427,
+            "y": 303
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Boulder Room Tunnel",
+        "access_rules": [
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph",
+          "$has|lizard_tail, $has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 163,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 419,
+            "y": 307
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Upper Big Underground Top Right",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 143,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 399,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Upper Big Underground Top Left",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 139,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Eastmost Item",
+        "access_rules": [
+          "$small_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 191,
+            "y": 103
+          },
+          {
+            "map": "global_map_h",
+            "x": 447,
+            "y": 295
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sandy Grave - Upper Pyramid",
+    "access_rules": [
+      "@Sandy Grave Regions/Upper Pyramid"
+    ],
+    "children": [
+      {
+        "name": "Sandy Grave: Pyramid East 1F",
+        "access_rules": [
+          "$big_uppies",
+          "$has|stone_of_flight"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 179,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 435,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Giant Shaft Upper Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 139,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Giant Shaft Middle Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 139,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Giant Shaft Low Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 139,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 395,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Pyramid 3F Lower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 111,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 367,
+            "y": 279
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Pyramid 3F Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 111,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 367,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Pyramid East 5F",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 159,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 415,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Fleaman Pit",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 159,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 415,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Mega Ghost Room Upper",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 167,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 423,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Mega Ghost Room Lower",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 171,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 427,
+            "y": 275
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sandy Grave - Pyramid Top",
+    "access_rules": [
+      "@Sandy Grave Regions/Pyramid Top"
+    ],
+    "children": [
+      {
+        "name": "Sandy Grave: Pyramid 5F Nook",
+        "access_rules": [
+          "$boss_door_open|Sandy Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 131,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 387,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Sandy Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 141,
+            "y": 55,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 397,
+            "y": 247,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forgotten City",
+    "access_rules": [
+      "@Forgotten City Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "Forgotten City: Outside Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 83,
+            "y": 55
+          },
+          {
+            "map": "global_map_h",
+            "x": 339,
+            "y": 439
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Pyramid East 5F",
+        "access_rules": [
+          "$small_uppies",
+          "$has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 131,
+            "y": 75
+          },
+          {
+            "map": "global_map_h",
+            "x": 387,
+            "y": 459
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Armored Fleaman Pit",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 131,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 387,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Pyramid East 3F",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube",
+          "$can_cast_spell, $has|speed_up, $has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 143,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 399,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Pyramid 5F",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 103,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 359,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Pyramid 1F Bricks",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 71,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 327,
+            "y": 491
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Lower Boulder Room Tunnel Alcove",
+        "access_rules": [
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 99,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 355,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Lower Boulder Room Upper Alcove",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 91,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 347,
+            "y": 507
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Gorgon Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 107,
+            "y": 111
+          },
+          {
+            "map": "global_map_h",
+            "x": 363,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Bottom Chamber",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 87,
+            "y": 135
+          },
+          {
+            "map": "global_map_h",
+            "x": 343,
+            "y": 519
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forgotten City - Inner",
+    "access_rules": [
+      "@Forgotten City Regions/Inner"
+    ],
+    "children": [
+      {
+        "name": "Forgotten City: Lower Underground Square Lower Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 111,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 367,
+            "y": 503
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Lower Underground Square Upper Item",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 115,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 371,
+            "y": 499
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Upper Underground Square",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 115,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 371,
+            "y": 491
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forgotten City - Inner Upper",
+    "access_rules": [
+      "@Forgotten City Regions/Inner Upper"
+    ],
+    "children": [
+      {
+        "name": "Forgotten City: Pyramid East 1F",
+        "access_rules": [
+          "$big_uppies",
+          "$has|acrobat_cube, $has|stone_of_flight, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 151,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 407,
+            "y": 491
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Big Shaft Room Left",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 109,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 365,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Big Shaft Room Right",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 113,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 369,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Post-Boss Item",
+        "access_rules": [
+          "$boss_door_open|Forgotten Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 91,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 347,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Forgotten Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 107,
+            "y": 99,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 363,
+            "y": 483,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nation of Fools - Right Lower",
+    "access_rules": [
+      "@Nation of Fools Regions/Right Lower"
+    ],
+    "children": [
+      {
+        "name": "Nation of Fools: Bottom Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 135,
+            "y": 127
+          },
+          {
+            "map": "global_map_h",
+            "x": 647,
+            "y": 319
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Bottom-Right Room Left Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 155,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 667,
+            "y": 307
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Bottom-Right Room Middle Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 159,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 671,
+            "y": 307
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nation of Fools - Right Lower Medium Room",
+    "access_rules": [
+      "@Nation of Fools Regions/Right Lower Medium Room"
+    ],
+    "children": [
+      {
+        "name": "Nation of Fools: Bottom Right Medium Square On Wall",
+        "access_rules": [
+          "$big_uppies",
+          "$has|acrobat_cube, $has|stone_of_flight, $has_call_cube",
+          "$has|stone_of_flight, $has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 161,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 673,
+            "y": 299
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nation of Fools - Main",
+    "access_rules": [
+      "@Nation of Fools Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "Nation of Fools: Central Top Shaft",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 127,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 639,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Legion Arena",
+        "access_rules": [
+          "$boss_door_open|Circus Arena Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 127,
+            "y": 93
+          },
+          {
+            "map": "global_map_h",
+            "x": 639,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Mid-Right Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 163,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 675,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Left Upper Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 99,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 611,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Right Horizontal Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 163,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 675,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Right Bottom Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 155,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 667,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Top Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 115,
+            "y": 59
+          },
+          {
+            "map": "global_map_h",
+            "x": 627,
+            "y": 251
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Bottom-Left Room Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 91,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 603,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Upper Upside Down",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 135,
+            "y": 55
+          },
+          {
+            "map": "global_map_h",
+            "x": 647,
+            "y": 247
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Bottom Left Medium Square On Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 95,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 607,
+            "y": 299
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Crevice Item",
+        "access_rules": [
+          "$has|puppet_master",
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 143,
+            "y": 59
+          },
+          {
+            "map": "global_map_h",
+            "x": 655,
+            "y": 251
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Top-Right Room Axe Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 155,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 667,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Left Bottom Corner Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 91,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 603,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Right Vertical Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 155,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 667,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Top-Right Room Bottom Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 159,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 671,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Top-Left Room Right Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 99,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 611,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Top-Right Room Breakable Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 159,
+            "y": 63
+          },
+          {
+            "map": "global_map_h",
+            "x": 671,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Right Center Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 131,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 643,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Left Center Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 123,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 635,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Upside Down Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 107,
+            "y": 63
+          },
+          {
+            "map": "global_map_h",
+            "x": 619,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Secret Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 139,
+            "y": 59
+          },
+          {
+            "map": "global_map_h",
+            "x": 651,
+            "y": 251
+          }
+        ]
+      },
+      {
+        "name": "Nation of Fools: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Circus Arena Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nation_of_fools",
+            "x": 127,
+            "y": 89,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 639,
+            "y": 281,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Burnt Paradise - Entrance",
+    "access_rules": [
+      "@Burnt Paradise Regions/Entrance"
+    ],
+    "children": [
+      {
+        "name": "Burnt Paradise: Left Lower Isolated Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 87,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 599,
+            "y": 491
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Right Lower Isolated Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 167,
+            "y": 107
+          },
+          {
+            "map": "global_map_h",
+            "x": 679,
+            "y": 491
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Left Upper Isolated Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 79,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 591,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Right Upper Isolated Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 175,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 687,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Left Upper Big Corner",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 103,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 615,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Upper Left Big Room Middle Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 103,
+            "y": 75
+          },
+          {
+            "map": "global_map_h",
+            "x": 615,
+            "y": 459
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Upper Right Big Room Right Side",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 155,
+            "y": 75
+          },
+          {
+            "map": "global_map_h",
+            "x": 667,
+            "y": 459
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Upper Left Big Room Left Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 99,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 611,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Upper Left Lower Corner Upright Building",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 91,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 603,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Right Upper Big Corner On Wall",
+        "access_rules": [
+          "$big_uppies",
+          "$has|stone_of_flight"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 151,
+            "y": 67
+          },
+          {
+            "map": "global_map_h",
+            "x": 663,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Upper Right Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 147,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 659,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Left Big Corner",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 93,
+            "y": 117
+          },
+          {
+            "map": "global_map_h",
+            "x": 605,
+            "y": 501
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Lower Left Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 103,
+            "y": 123
+          },
+          {
+            "map": "global_map_h",
+            "x": 615,
+            "y": 507
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Lower Vertical Hall",
+        "access_rules": [
+          "$has|puppet_master",
+          "$can_cast_spell, $has|owl_morph",
+          "$can_cast_spell, $has|toad_morph"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 111,
+            "y": 135
+          },
+          {
+            "map": "global_map_h",
+            "x": 623,
+            "y": 519
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Bottom Corner",
+        "access_rules": [
+          "$boss_door_open|Burnt Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 115,
+            "y": 139
+          },
+          {
+            "map": "global_map_h",
+            "x": 627,
+            "y": 523
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Bottom Right Breakable Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 135,
+            "y": 135
+          },
+          {
+            "map": "global_map_h",
+            "x": 647,
+            "y": 519
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Bottom Right Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 151,
+            "y": 115
+          },
+          {
+            "map": "global_map_h",
+            "x": 663,
+            "y": 499
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Bottom Right Corner Room",
+        "access_rules": [
+          "$big_uppies",
+          "$medium_uppies",
+          "$has_call_cube, $has|acrobat_cube, $has|puppet_master"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 163,
+            "y": 119
+          },
+          {
+            "map": "global_map_h",
+            "x": 675,
+            "y": 503
+          }
+        ]
+      },
+      {
+        "name": "Burnt Paradise: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Burnt Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "burnt_paradise",
+            "x": 125,
+            "y": 139,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 637,
+            "y": 523,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest of Doom - Main",
+    "access_rules": [
+      "@Forest of Doom Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "Forest of Doom: Left Atrium Big Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 99,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 867,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Left Atrium Top",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 71,
+            "y": 75
+          },
+          {
+            "map": "global_map_h",
+            "x": 839,
+            "y": 267
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Right Atrium East Top Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 159,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 927,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Right Atrium East Square Room Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 163,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 931,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Right Atrium West Top Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 147,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 915,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Left Atrium Breakable Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 71,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 839,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Left Atrium Middle Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 67,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 835,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Left Atrium Upper Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 63,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 831,
+            "y": 271
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest of Doom - Cave",
+    "access_rules": [
+      "@Forest of Doom Regions/Cave"
+    ],
+    "children": [
+      {
+        "name": "Forest of Doom: Right Atrium East Square Room Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 167,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 935,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Secret Cave Room",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 159,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 927,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Near Cave Save Breakable Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 195,
+            "y": 103
+          },
+          {
+            "map": "global_map_h",
+            "x": 963,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Post-Boss Room",
+        "access_rules": [
+          "$boss_door_open|Forest Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 207,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 975,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Forest of Doom: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Forest Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_doom",
+            "x": 203,
+            "y": 101,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 971,
+            "y": 293,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark Academy - Right Building",
+    "access_rules": [
+      "@Dark Academy Regions/Right Building"
+    ],
+    "children": [
+      {
+        "name": "Dark Academy: Right Building Center Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 147,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 915,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Right Building Top Floor",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 155,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 923,
+            "y": 471
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark Academy - Main",
+    "access_rules": [
+      "@Dark Academy Regions/Main"
+    ],
+    "children": [
+      {
+        "name": "Dark Academy: Main Building Ghoul Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 115,
+            "y": 87
+          },
+          {
+            "map": "global_map_h",
+            "x": 883,
+            "y": 471
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Main Building Three Toads",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 95,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 863,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Main Building Secret Ceiling",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 111,
+            "y": 79
+          },
+          {
+            "map": "global_map_h",
+            "x": 879,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Main Building Entrance",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 127,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 895,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Main Building Secret Malphas Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 107,
+            "y": 99
+          },
+          {
+            "map": "global_map_h",
+            "x": 875,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Main Building Square Room Breakable Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 99,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 867,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: West Building Breakable Wall",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 43,
+            "y": 95
+          },
+          {
+            "map": "global_map_h",
+            "x": 811,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Main Building Minotaur Room",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 115,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 883,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: West Building Top Floor Right",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 55,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 823,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: West Building Top Floor Left",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 51,
+            "y": 91
+          },
+          {
+            "map": "global_map_h",
+            "x": 819,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: Boss Room",
+        "access_rules": [
+          "$boss_door_open|Academy Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 49,
+            "y": 99,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 817,
+            "y": 483,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Throne Room",
+    "access_rules": [
+      "@Throne Room Regions/Main"
+    ],
+    "visibility_rules": [
+      "$has|goal_dracula",
+      "$has|open_throne"
+    ],
+    "children": [
+      {
+        "name": "The Throne Room: Above Throne Left",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 175,
+            "y": 23
+          },
+          {
+            "map": "global_map_h",
+            "x": 431,
+            "y": 23
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Great Stairs Under Stairs",
+        "access_rules": [
+          "$medium_uppies",
+          "$has|acrobat_cube, $has|puppet_master, $has_call_cube"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 183,
+            "y": 35
+          },
+          {
+            "map": "global_map_h",
+            "x": 439,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Great Stairs Center",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 185,
+            "y": 27
+          },
+          {
+            "map": "global_map_h",
+            "x": 441,
+            "y": 27
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Above Throne Right",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 179,
+            "y": 23
+          },
+          {
+            "map": "global_map_h",
+            "x": 435,
+            "y": 23
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Great Stairs Hidden",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 187,
+            "y": 23
+          },
+          {
+            "map": "global_map_h",
+            "x": 443,
+            "y": 23
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Great Stairs Left",
+        "access_rules": [
+          "$big_uppies"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 183,
+            "y": 23
+          },
+          {
+            "map": "global_map_h",
+            "x": 439,
+            "y": 23
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Dracula",
+        "access_rules": [
+          "$boss_door_open|Throne Key, $dracula_available"
+        ],
+        "visibility_rules": [
+          "$has|goal_dracula"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 173,
+            "y": 27,
+            "shape": "diamond",
+            "size": 4
+          },
+          {
+            "map": "global_map_h",
+            "x": 429,
+            "y": 27,
+            "shape": "diamond",
+            "size": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nest of Evil",
+    "access_rules": [
+      "@Nest of Evil Regions/Main"
+    ],
+    "visibility_rules": [
+      "$nest_not_removed"
+    ],
+    "children": [
+      {
+        "name": "Nest of Evil: Doppelganger Reward",
+        "access_rules": [
+          "$boss_door_open|Nest Key"
+        ],
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nest_of_evil",
+            "x": 127,
+            "y": 143
+          },
+          {
+            "map": "global_map_h",
+            "x": 639,
+            "y": 143
+          }
+        ]
+      },
+      {
+        "name": "Nest of Evil: First Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nest_of_evil",
+            "x": 111,
+            "y": 83
+          },
+          {
+            "map": "global_map_h",
+            "x": 623,
+            "y": 83
+          }
+        ]
+      },
+      {
+        "name": "Nest of Evil: Second Item",
+        "sections": [
+          {}
+        ],
+        "map_locations": [
+          {
+            "map": "nest_of_evil",
+            "x": 111,
+            "y": 131
+          },
+          {
+            "map": "global_map_h",
+            "x": 623,
+            "y": 131
+          }
+        ]
+      }
+    ]
+  }
+]

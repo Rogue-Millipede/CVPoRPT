@@ -1,0 +1,974 @@
+[
+	{
+		"name": "Goal",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+      	"name": "Defeat Brauner",
+        "img": "images/bosses/brauner.png",
+        "codes": "goal, goal_brauner, brauner",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Defeat Dracula",
+        "img": "images/bosses/dracula.png",
+        "codes": "goal, goal_dracula, dracula",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Nest of Evil",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "Vanilla",
+        "img": "images/settings/vanilla.png",
+        "codes": "nest_setting, nest_vanilla, vanilla",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Randomized",
+        "img": "images/settings/randomized.png",
+        "codes": "nest_setting, nest_randomized, randomized",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Required",
+        "img": "images/settings/required.png",
+        "codes": "nest_setting, nest_required, required",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Removed",
+        "img": "images/settings/removed.png",
+        "codes": "nest_setting, nest_removed, removed",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Brauner Required",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+      	"name": "No",
+        "img": "images/bosses/brauner.png",
+        "img_mods": "@disabled",
+        "codes": "brauner_setting, brauner_optional",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Yes",
+        "img": "images/bosses/brauner.png",
+        "codes": "brauner_setting, brauner_required",
+        "inherit_codes": false
+      }
+    ]
+	},
+  {
+    "name": "Nest Portraits",
+    "codes": "nest_portraits",
+    "img": "images/portraits/nest_of_evil.png",
+    "type": "consumable",
+    "initial_quantity": 8,
+    "max_quantity": 8,
+    "overlay_background": "000000",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Brauner Portraits",
+    "codes": "brauner_portraits",
+    "img": "images/bosses/brauner.png",
+    "type": "consumable",
+    "initial_quantity": 4,
+    "max_quantity": 8,
+    "overlay_background": "000000",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Dracula Portraits",
+    "codes": "dracula_portraits",
+    "img": "images/bosses/dracula.png",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 8,
+    "overlay_background": "000000",
+    "overlay_font_size": 12
+  },
+	{
+		"name": "Start With Change Cube",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "No",
+        "img": "images/items/change_cube.png",
+        "img_mods": "@disabled",
+        "codes": "change_cube_setting, dont_start_with_change_cube",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Yes",
+        "img": "images/items/change_cube.png",
+        "codes": "change_cube_setting, start_with_change_cube",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Stronger Glove",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "No",
+        "img": "images/items/strength_glove.png",
+        "img_mods": "@disabled",
+        "codes": "stronger_glove_setting",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Yes",
+        "img": "images/items/strength_glove.png",
+        "codes": "stronger_glove_setting, stronger_glove",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Portrait Shuffle",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "Normal",
+        "img": "images/portraits/dracula_castle.png",
+        "codes": "portrait_shuffle, portrait_shuffle_off",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Split",
+        "img": "images/portraits/city_of_haze.png",
+        "codes": "portrait_shuffle, portrait_shuffle_split",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Full",
+        "img": "images/portraits/13th_street.png",
+        "codes": "portrait_shuffle, portrait_shuffle_full",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Add Nest",
+        "img": "images/portraits/nest_of_evil.png",
+        "codes": "portrait_shuffle, portrait_shuffle_nest",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Start With Call Cube",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "No",
+        "img": "images/items/call_cube.png",
+        "img_mods": "@disabled",
+        "codes": "call_cube_setting",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Yes",
+        "img": "images/items/call_cube.png",
+        "codes": "call_cube_setting, start_with_call_cube",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Boss Keys",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "No",
+        "img": "images/items/key.png",
+        "img_mods": "@disabled",
+        "codes": "boss_keys",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Yes",
+        "img": "images/items/key.png",
+        "codes": "boss_keys, add_boss_keys",
+        "inherit_codes": false
+      }
+    ]
+	},
+	{
+		"name": "Shuffle Colosseum Key",
+		"type": "toggle",
+		"img": "images/items/behemoth_key.png",
+		"codes": "shuffle_Colosseum Key"
+	},
+	{
+		"name": "Shuffle Cavern Key",
+		"type": "toggle",
+		"img": "images/items/keremet_key.png",
+		"codes": "shuffle_Cavern Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Tower Base Key",
+		"type": "toggle",
+		"img": "images/items/stella_key.png",
+		"codes": "shuffle_Tower Base Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Clock Key",
+		"type": "toggle",
+		"img": "images/items/death_key.png",
+		"codes": "shuffle_Clock Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Gallery Key",
+		"type": "toggle",
+		"img": "images/items/sisters_key.png",
+		"codes": "shuffle_Gallery Key"
+	},
+	{
+		"name": "Shuffle City Key",
+		"type": "toggle",
+		"img": "images/items/dullahan_key.png",
+		"codes": "shuffle_City Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Sandy Key",
+		"type": "toggle",
+		"img": "images/items/astarte_key.png",
+		"codes": "shuffle_Sandy Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Circus Arena Key",
+		"type": "toggle",
+		"img": "images/items/legion_key.png",
+		"codes": "shuffle_Circus Arena Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Forest Key",
+		"type": "toggle",
+		"img": "images/items/dagon_key.png",
+		"codes": "shuffle_Forest Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Throne Key",
+		"type": "toggle",
+		"img": "images/items/dracula_key.png",
+		"codes": "shuffle_Throne Key"
+	},
+	{
+		"name": "Shuffle Street Key",
+		"type": "toggle",
+		"img": "images/items/werewolf_key.png",
+		"codes": "shuffle_Street Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Forgotten Key",
+		"type": "toggle",
+		"img": "images/items/mummy_man_key.png",
+		"codes": "shuffle_Forgotten Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Burnt Key",
+		"type": "toggle",
+		"img": "images/items/medusa_key.png",
+		"codes": "shuffle_Burnt Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Academy Key",
+		"type": "toggle",
+		"img": "images/items/creature_key.png",
+		"codes": "shuffle_Academy Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Shuffle Nest Key",
+		"type": "toggle",
+		"img": "images/items/doppelganger_key.png",
+		"codes": "shuffle_Nest Key",
+		"initial_active_state": true
+	},
+	{
+		"name": "Open Throne",
+		"type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+      	"name": "No",
+        "img": "images/settings/free.png",
+        "img_mods": "@disabled",
+        "codes": "throne_settings",
+        "inherit_codes": false
+      },
+      {
+      	"name": "Yes",
+        "img": "images/settings/free.png",
+        "codes": "throne_settings, open_throne",
+        "inherit_codes": false
+      }
+    ]
+	},
+  {
+    "name": "Hub Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "hub_portrait",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "hub_portrait, hub_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "hub_portrait, hub_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "hub_portrait, hub_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "hub_portrait, hub_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "hub_portrait, hub_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "hub_portrait, hub_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "hub_portrait, hub_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "hub_portrait, hub_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "hub_portrait, hub_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Underground Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "underground_portrait",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "underground_portrait, underground_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "underground_portrait, underground_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "underground_portrait, underground_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "underground_portrait, underground_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "underground_portrait, underground_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "underground_portrait, underground_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "underground_portrait, underground_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "underground_portrait, underground_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "underground_portrait, underground_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Stairs Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "stairs_portrait",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "stairs_portrait, stairs_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "stairs_portrait, stairs_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "stairs_portrait, stairs_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "stairs_portrait, stairs_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "stairs_portrait, stairs_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "stairs_portrait, stairs_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "stairs_portrait, stairs_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "stairs_portrait, stairs_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "stairs_portrait, stairs_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Tower Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "tower_portrait",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "tower_portrait, tower_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "tower_portrait, tower_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "tower_portrait, tower_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "tower_portrait, tower_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "tower_portrait, tower_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "tower_portrait, tower_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "tower_portrait, tower_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "tower_portrait, tower_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "tower_portrait, tower_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Gallery Far Left Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "brauner_portrait_1",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "brauner_portrait_1, gallery_far_left_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Gallery Center Left Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "brauner_portrait_2",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "brauner_portrait_2, gallery_center_left_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Gallery Center Right Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "brauner_portrait_3",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "brauner_portrait_3, gallery_center_right_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Gallery Far Right Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "brauner_portrait_4",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "brauner_portrait_4, gallery_far_right_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  },
+  {
+    "name": "Passage Portrait",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+    	{
+    		"name": "Unknown",
+    		"img": "images/portraits/dracula_castle.png",
+    		"codes": "passage_portrait",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "City of Haze",
+    		"img": "images/portraits/city_of_haze.png",
+    		"codes": "passage_portrait, passage_city_of_haze",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "13th Street",
+    		"img": "images/portraits/13th_street.png",
+    		"codes": "passage_portrait, passage_13th_street",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Sandy Grave",
+    		"img": "images/portraits/sandy_grave.png",
+    		"codes": "passage_portrait, passage_sandy_grave",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forgotten City",
+    		"img": "images/portraits/forgotten_city.png",
+    		"codes": "passage_portrait, passage_forgotten_city",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nation of Fools",
+    		"img": "images/portraits/nation_of_fools.png",
+    		"codes": "passage_portrait, passage_nation_of_fools",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Burnt Paradise",
+    		"img": "images/portraits/burnt_paradise.png",
+    		"codes": "passage_portrait, passage_burnt_paradise",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Forest of Doom",
+    		"img": "images/portraits/forest_of_doom.png",
+    		"codes": "passage_portrait, passage_forest_of_doom",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Dark Academy",
+    		"img": "images/portraits/dark_academy.png",
+    		"codes": "passage_portrait, passage_dark_academy",
+        "inherit_codes": false
+    	},
+    	{
+    		"name": "Nest of Evil",
+    		"img": "images/portraits/nest_of_evil.png",
+    		"codes": "passage_portrait, passage_nest_of_evil",
+        "inherit_codes": false
+    	}
+    ]
+  }
+]

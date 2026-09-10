@@ -1,0 +1,134 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Dracula's Castle",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dracula_castle"
+                ]
+              }
+            },
+            {
+              "title": "City of Haze",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "city_of_haze"
+                ]
+              }
+            },
+            {
+              "title": "Sandy Grave",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sandy_grave"
+                ]
+              }
+            },
+            {
+              "title": "Nation of Fools",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "nation_of_fools"
+                ]
+              }
+            },
+            {
+              "title": "Forest of Doom",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forest_of_doom"
+                ]
+              }
+            },
+            {
+              "title": "13th Street",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "13th_street"
+                ]
+              }
+            },
+            {
+              "title": "Forgotten City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forgotten_city"
+                ]
+              }
+            },
+            {
+              "title": "Burnt Paradise",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "burnt_paradise"
+                ]
+              }
+            },
+            {
+              "title": "Dark Academy",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dark_academy"
+                ]
+              }
+            },
+            {
+              "title": "Nest of Evil",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "nest_of_evil"
+                ]
+              }
+            },
+            {
+              "title": "Global Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "global_map_h"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+}

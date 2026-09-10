@@ -1,0 +1,557 @@
+{
+  "settings_popup": {
+		"type": "container",
+		"background": "#000000",
+    "content": [
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Options",
+            "icon": "images/items/cog.png",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0, 4, 0, 130",
+                "content": [
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "content": [
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "goal",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Goal",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "nest_setting",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Nest of Evil",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "brauner_setting",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Brauner Required",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "nest_portraits",
+                            "max_height": 32,
+                            "max_width": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Nest Portraits",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "brauner_portraits",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Brauner Portraits",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "dracula_portraits",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Dracula Portraits",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "content": [
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "change_cube_setting",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Start With Change Cube",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "stronger_glove_setting",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Stronger Glove",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "portrait_shuffle",
+                            "max_height": 32,
+                            "max_width": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Portrait Shuffle",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "call_cube_setting",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Start With Call Cube",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "boss_keys",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Add Boss Keys",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 130, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "throne_settings",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Open Throne",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Boss Keys",
+            "icon": "images/items/key.png",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0, 4, 0, 130",
+                "content": [
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "content": [
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Colosseum Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Colosseum Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Cavern Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cavern Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Tower Base Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Tower Base Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Clock Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Clock Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Gallery Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Gallery Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      }
+                    ],
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "content": [
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_City Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "City Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Sandy Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Sandy Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Circus Arena Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Circus Arena Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Forest Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Forest Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Throne Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Throne Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "content": [
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Street Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Street Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Forgotten Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Forgotten Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Burnt Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Burnt Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Academy Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Academy Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "6, 0, 40, 0",
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "shuffle_Nest Key",
+                            "item_size": 32,
+                            "margin": 4
+                          },
+                          {
+                            "type": "text",
+                            "text": "Nest Key",
+                            "v_alignment": "center"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
