@@ -1,20 +1,9 @@
-# Template Pack for PopTracker
+# Castlevania Portrait of Ruin Pack for PopTracker
 
-This a template tracker package for PopTracker.
+Designed for PinkSwitch's Portrait of Ruin APWorld version 1.3.3
 
-Includes examples for AP and SNES memory autotracking and beginner-friendly explanations in the pack.
+## Known Issues
 
-## Installation
-
-Just download the latest build or source and put in your packs folder (unpacked).
-
-## More Info
-
-Check out PopTrackers Documentation on
-packs [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md).
-
-Still having trouble realizing your pack and looking for help or just want more information about everything PopTracker? Check out the ['Unofficial' PopTracker Discord Server](https://discord.com/invite/gwThqMCPgK)!
-
-## License
-
-Feel free to use this template without credit for all your PopTracker packs!
+Portraits are revealed on entering them rather than on seeing them (relevant for tower before locket, gallery center)
+Portraits revealed are not saved between sessions
+Quest checks are not tracked
