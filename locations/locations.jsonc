@@ -74,12 +74,34 @@
           {
             "map": "dracula_castle",
             "x": 59,
-            "y": 131
+            "y": 131,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 315,
-            "y": 131
+            "y": 131,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "dracula_castle",
+            "x": 59,
+            "y": 135,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 315,
+            "y": 135,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -92,12 +114,18 @@
           {
             "map": "dracula_castle",
             "x": 59,
-            "y": 135
+            "y": 135,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 315,
-            "y": 135
+            "y": 135,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -110,12 +138,18 @@
           {
             "map": "dracula_castle",
             "x": 55,
-            "y": 135
+            "y": 135,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 311,
-            "y": 135
+            "y": 135,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -766,12 +800,18 @@
           {
             "map": "dracula_castle",
             "x": 155,
-            "y": 103
+            "y": 103,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 411,
-            "y": 103
+            "y": 103,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -811,12 +851,18 @@
           {
             "map": "dracula_castle",
             "x": 159,
-            "y": 99
+            "y": 99,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 415,
-            "y": 99
+            "y": 99,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -874,12 +920,18 @@
           {
             "map": "dracula_castle",
             "x": 135,
-            "y": 115
+            "y": 115,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 391,
-            "y": 115
+            "y": 115,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -919,12 +971,18 @@
           {
             "map": "dracula_castle",
             "x": 139,
-            "y": 111
+            "y": 111,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 395,
-            "y": 111
+            "y": 111,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -1075,12 +1133,18 @@
           {
             "map": "dracula_castle",
             "x": 143,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 399,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -1097,12 +1161,18 @@
           {
             "map": "dracula_castle",
             "x": 147,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 403,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -1839,12 +1909,18 @@
           {
             "map": "city_of_haze",
             "x": 59,
-            "y": 91
+            "y": 91,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 59,
-            "y": 283
+            "y": 283,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -1857,12 +1933,18 @@
           {
             "map": "city_of_haze",
             "x": 63,
-            "y": 91
+            "y": 91,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 63,
-            "y": 283
+            "y": 283,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -1911,12 +1993,18 @@
           {
             "map": "city_of_haze",
             "x": 95,
-            "y": 79
+            "y": 79,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 95,
-            "y": 271
+            "y": 271,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -1929,12 +2017,18 @@
           {
             "map": "city_of_haze",
             "x": 95,
-            "y": 83
+            "y": 83,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 95,
-            "y": 275
+            "y": 275,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2069,12 +2163,18 @@
           {
             "map": "city_of_haze",
             "x": 143,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 143,
-            "y": 279
+            "y": 279,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2144,12 +2244,18 @@
           {
             "map": "city_of_haze",
             "x": 147,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 147,
-            "y": 279
+            "y": 279,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2627,12 +2733,18 @@
           {
             "map": "13th_street",
             "x": 147,
-            "y": 95
+            "y": 95,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 147,
-            "y": 479
+            "y": 479,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2666,12 +2778,18 @@
           {
             "map": "13th_street",
             "x": 143,
-            "y": 95
+            "y": 95,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 143,
-            "y": 479
+            "y": 479,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2702,12 +2820,18 @@
           {
             "map": "13th_street",
             "x": 151,
-            "y": 95
+            "y": 95,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 151,
-            "y": 479
+            "y": 479,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2852,12 +2976,18 @@
           {
             "map": "sandy_grave",
             "x": 133,
-            "y": 119
+            "y": 119,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 389,
-            "y": 311
+            "y": 311,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -2870,12 +3000,18 @@
           {
             "map": "sandy_grave",
             "x": 137,
-            "y": 119
+            "y": 119,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 393,
-            "y": 311
+            "y": 311,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -3628,12 +3764,18 @@
           {
             "map": "forgotten_city",
             "x": 109,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 365,
-            "y": 471
+            "y": 471,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -3649,12 +3791,18 @@
           {
             "map": "forgotten_city",
             "x": 113,
-            "y": 87
+            "y": 87,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 369,
-            "y": 471
+            "y": 471,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -5058,12 +5206,18 @@
           {
             "map": "dark_academy",
             "x": 55,
-            "y": 91
+            "y": 91,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 823,
-            "y": 475
+            "y": 475,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -5076,12 +5230,18 @@
           {
             "map": "dark_academy",
             "x": 51,
-            "y": 91
+            "y": 91,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 819,
-            "y": 475
+            "y": 475,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -5134,12 +5294,18 @@
           {
             "map": "dracula_castle",
             "x": 175,
-            "y": 23
+            "y": 23,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 431,
-            "y": 23
+            "y": 23,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -5198,12 +5364,18 @@
           {
             "map": "dracula_castle",
             "x": 179,
-            "y": 23
+            "y": 23,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           },
           {
             "map": "global_map_h",
             "x": 435,
-            "y": 23
+            "y": 23,
+            "force_invisibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       },
@@ -5342,6 +5514,387 @@
             "map": "global_map_h",
             "x": 623,
             "y": 131
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Condensed Display",
+    "children": [
+      {
+        "name": "Entrance: First Passage",
+        "sections": [
+          {
+            "ref": "Entrance - Hub/Entrance: First Passage Lower Item/",
+            "name": "Entrance: First Passage Lower Item"
+          },
+          {
+            "ref": "Entrance - Hub/Entrance: First Passage Hidden Wall/",
+            "name": "Entrance: First Passage Hidden Wall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 55,
+            "y": 135,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 311,
+            "y": 135,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Lower Grand Staircase",
+        "sections": [
+          {
+            "ref": "Great Stairway - Staircases/Great Stairway: Lower Grand Staircase Upper Alcove/",
+            "name": "Great Stairway: Lower Grand Staircase Upper Alcove"
+          },
+          {
+            "ref": "Great Stairway - Staircases/Great Stairway: Lower Grand Staircase Middle Alcove/",
+            "name": "Great Stairway: Lower Grand Staircase Middle Alcove"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 135,
+            "y": 115,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 391,
+            "y": 115,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Upper Grand Staircase",
+        "sections": [
+          {
+            "ref": "Great Stairway - Staircases/Great Stairway: Upper Grand Staircase Upper Alcove/",
+            "name": "Great Stairway: Upper Grand Staircase Upper Alcove"
+          },
+          {
+            "ref": "Great Stairway - Staircases/Great Stairway: Upper Grand Staircase Middle Alcove/",
+            "name": "Great Stairway: Upper Grand Staircase Middle Alcove"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 155,
+            "y": 103,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 411,
+            "y": 103,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Great Stairway: Connector Pipe",
+        "sections": [
+          {
+            "ref": "Great Stairway - Upper/Great Stairway: Connector Pipe Left/",
+            "name": "Great Stairway: Connector Pipe Left"
+          },
+          {
+            "ref": "Great Stairway - Upper/Great Stairway: Connector Pipe Right/",
+            "name": "Great Stairway: Connector Pipe Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 145,
+            "y": 87,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 401,
+            "y": 87,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Throne Room: Above Throne",
+        "sections": [
+          {
+            "ref": "The Throne Room/The Throne Room: Above Throne Left/",
+            "name": "The Throne Room: Above Throne Left"
+          },
+          {
+            "ref": "The Throne Room/The Throne Room: Above Throne Right/",
+            "name": "The Throne Room: Above Throne Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dracula_castle",
+            "x": 175,
+            "y": 23,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 431,
+            "y": 23,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Bar",
+        "sections": [
+          {
+            "ref": "City of Haze/City of Haze: Bar Left/",
+            "name": "City of Haze: Bar Left"
+          },
+          {
+            "ref": "City of Haze/City of Haze: Bar Right/",
+            "name": "City of Haze: Bar Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 59,
+            "y": 91,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 59,
+            "y": 283,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Bar",
+        "sections": [
+          {
+            "ref": "City of Haze/City of Haze: Center Room Top/",
+            "name": "City of Haze: Center Room Top"
+          },
+          {
+            "ref": "City of Haze/City of Haze: Center Room Lower/",
+            "name": "City of Haze: Center Room Lower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 95,
+            "y": 79,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 95,
+            "y": 271,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "City of Haze: Central Hallway",
+        "sections": [
+          {
+            "ref": "City of Haze - East/City of Haze: Central Hallway Stairs/",
+            "name": "City of Haze: Central Hallway Stairs"
+          },
+          {
+            "ref": "City of Haze - East/City of Haze: Central Hallway Lower/",
+            "name": "City of Haze: Central Hallway Lower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_of_haze",
+            "x": 147,
+            "y": 87,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 147,
+            "y": 279,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "13th Street: Bakery",
+        "sections": [
+          {
+            "ref": "13th Street - Main/13th Street: Bakery Left/",
+            "name": "13th Street: Bakery Left"
+          },
+          {
+            "ref": "13th Street - Main/13th Street: Bakery Middle/",
+            "name": "13th Street: Bakery Middle"
+          },
+          {
+            "ref": "13th Street - Main/13th Street: Bakery Right/",
+            "name": "13th Street: Bakery Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "13th_street",
+            "x": 147,
+            "y": 95,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 147,
+            "y": 479,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sandy Grave: Trap Room",
+        "sections": [
+          {
+            "ref": "Sandy Grave/Sandy Grave: Left Trap/",
+            "name": "Sandy Grave: Left Trap"
+          },
+          {
+            "ref": "Sandy Grave/Sandy Grave: Right Trap/",
+            "name": "Sandy Grave: Right Trap"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sandy_grave",
+            "x": 135,
+            "y": 119,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 391,
+            "y": 311,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City: Big Shaft Room",
+        "sections": [
+          {
+            "ref": "Forgotten City - Inner Upper/Forgotten City: Big Shaft Room Left/",
+            "name": "Forgotten City: Big Shaft Room Left"
+          },
+          {
+            "ref": "Forgotten City - Inner Upper/Forgotten City: Big Shaft Room Right/",
+            "name": "Forgotten City: Big Shaft Room Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_city",
+            "x": 111,
+            "y": 87,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 367,
+            "y": 471,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Academy: West Building Top Floor",
+        "sections": [
+          {
+            "ref": "Dark Academy - Main/Dark Academy: West Building Top Floor Left/",
+            "name": "Dark Academy: West Building Top Floor Left"
+          },
+          {
+            "ref": "Dark Academy - Main/Dark Academy: West Building Top Floor Right/",
+            "name": "Dark Academy: West Building Top Floor Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dark_academy",
+            "x": 55,
+            "y": 91,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
+          },
+          {
+            "map": "global_map_h",
+            "x": 823,
+            "y": 475,
+            "restrict_visibility_rules": [
+              "checks_condensed"
+            ]
           }
         ]
       }

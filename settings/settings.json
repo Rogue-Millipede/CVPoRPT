@@ -970,5 +970,26 @@
         "inherit_codes": false
     	}
     ]
+  },
+  {
+    "name": "Checks Display",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Checks Separate",
+        "img": "images/settings/checks_separate.png",
+        "codes": "checks_display, checks_separate",
+        "inherit_codes": false
+      },
+      {
+        "name": "Checks Condensed",
+        "img": "images/settings/checks_condensed.png",
+        "codes": "checks_display, checks_condensed",
+        "inherit_codes": false
+      }
+    ]
   }
 ]
