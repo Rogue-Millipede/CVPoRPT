@@ -1,0 +1,28 @@
+{
+  "portraits": {
+    "type": "group",
+    "header": "Portraits",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "4, 4",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "hub_portrait",
+            "underground_portrait",
+            "stairs_portrait",
+            "tower_portrait"
+          ],
+          [
+            "brauner_portrait_1",
+            "brauner_portrait_2",
+            "brauner_portrait_3",
+            "brauner_portrait_4",
+            "passage_portrait"
+          ]
+        ]
+      }
+    ]
+  }
+}

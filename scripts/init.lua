@@ -42,8 +42,13 @@ Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 Tracker:AddLayouts("layouts/options.json")
+Tracker:AddLayouts("layouts/boss_keys_off.jsonc")
+Tracker:AddLayouts("layouts/portrait_shuffle_off.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+
+ScriptHost:LoadScript("scripts/watch.lua")
+initialize_watch_items()

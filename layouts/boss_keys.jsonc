@@ -1,0 +1,36 @@
+{
+  "boss_keys": {
+    "type": "group",
+    "header": "Boss Keys",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "4, 4",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "Colosseum Key",
+            "Cavern Key",
+            "Tower Base Key",
+            "Clock Key",
+            "Gallery Key"
+          ],
+          [
+            "City Key",
+            "Sandy Key",
+            "Circus Arena Key",
+            "Forest Key",
+            "Throne Key"
+          ],
+          [
+            "Street Key",
+            "Forgotten Key",
+            "Burnt Key",
+            "Academy Key",
+            "Nest Key"
+          ]
+        ]
+      }
+    ]
+  }
+}
