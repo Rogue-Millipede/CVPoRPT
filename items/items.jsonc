@@ -211,12 +211,6 @@
     "codes": "death_defeated"
   },
   {
-    "name": "Tower Elevator Active",
-    "type": "toggle",
-    "img": "images/items/elevator.png",
-    "codes": "tower_elevator_active"
-  },
-  {
     "name": "Brauner Defeated",
     "type": "toggle",
     "img": "images/bosses/brauner.png",

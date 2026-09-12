@@ -173,7 +173,7 @@
 				"access_rules": [
 					"@Tower of Death Regions/Top of the Tower",
 					"@Master's Keep Regions/Bridge",
-					"@Master's Keep Regions/Lower, $has|tower_elevator_active"
+					"@Master's Keep Regions/Lower, $can_activate_tower_elevator"
 				]
 			},
 			{
@@ -223,7 +223,7 @@
 			{
 				"name": "Lower",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room, $small_uppies, $has|tower_elevator_active",
+					"@Tower of Death Regions/Elevator Room, $small_uppies, $can_activate_tower_elevator",
 					"@Master's Keep Regions/Main"
 				]
 			},

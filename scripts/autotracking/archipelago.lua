@@ -470,9 +470,6 @@ function onDataStorageUpdate(key, value, oldValue)
 	end
 	if key == "map_id" then
 		onMapChange(key, value, oldValue)
-	elseif key == "ElevatorSwitch" and value then
-		Tracker:FindObjectForCode("tower_elevator_active").Active = (value == 1)
-		Tracker:FindObjectForCode("@Tower of Death - Top of the Tower/Tower of Death: Elevator Switch/").AvailableChestCount = 1 - value
 	elseif key == "Dullahan" and value then
 		Tracker:FindObjectForCode("dullahan_defeated").Active = (value == 1)
 		recalculate_portrait_clears()

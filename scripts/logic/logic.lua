@@ -118,3 +118,8 @@ end
 function portraits_are_shuffled()
     return not has("portrait_shuffle_off")
 end
+
+function can_activate_tower_elevator()
+    local can_reach_switch = Tracker:FindObjectForCode("@Tower of Death Regions/Top of the Tower")
+    return can_reach_switch.AccessibilityLevel == AccessibilityLevel.Normal
+end

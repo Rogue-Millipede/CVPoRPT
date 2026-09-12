@@ -1435,7 +1435,7 @@
       {
         "name": "Tower of Death: Elevator Room Middle",
         "access_rules": [
-          "$has|tower_elevator_active"
+          "$can_activate_tower_elevator"
         ],
         "sections": [
           {}
@@ -1456,7 +1456,7 @@
       {
         "name": "Tower of Death: Elevator Room Top",
         "access_rules": [
-          "$has|tower_elevator_active"
+          "$can_activate_tower_elevator"
         ],
         "sections": [
           {}
@@ -1595,28 +1595,6 @@
             "map": "global_map_h",
             "x": 463,
             "y": 35
-          }
-        ]
-      },
-      {
-        "name": "Tower of Death: Elevator Switch",
-        "sections": [
-          {}
-        ],
-        "map_locations": [
-          {
-            "map": "dracula_castle",
-            "x": 211,
-            "y": 35,
-            "shape": "diamond",
-            "size": 4
-          },
-          {
-            "map": "global_map_h",
-            "x": 467,
-            "y": 35,
-            "shape": "diamond",
-            "size": 4
           }
         ]
       },
