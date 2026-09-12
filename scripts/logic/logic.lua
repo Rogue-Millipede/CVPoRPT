@@ -114,3 +114,7 @@ function brauner_available()
     local final_boss = has("goal_brauner")
     return enough_portraits and (not final_boss or nest_state)
 end
+
+function portraits_are_shuffled()
+    return not has("portrait_shuffle_off")
+end

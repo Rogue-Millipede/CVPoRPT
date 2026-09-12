@@ -268,15 +268,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Entrance Regions/Hub Painting Room, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_city_of_haze",
-					"@Entrance Regions/Underground Passage, $has|passage_city_of_haze",
-					"@Great Stairway Regions/Underground Painting, $has|underground_city_of_haze",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_city_of_haze",
-					"@Tower of Death Regions/Painting Room, $has|tower_city_of_haze, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_city_of_haze",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_city_of_haze",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_city_of_haze",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_city_of_haze"
+					"@Entrance Regions/Hub Painting Room, $has|hub_city_of_haze, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_city_of_haze, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_city_of_haze, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_city_of_haze, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_city_of_haze, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_city_of_haze, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_city_of_haze, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_city_of_haze, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_city_of_haze, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -301,15 +301,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_13th_street",
-					"@Entrance Regions/Underground Passage, $has|passage_13th_street",
-					"@Great Stairway Regions/Underground Painting, $has|underground_13th_street",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_13th_street",
-					"@Tower of Death Regions/Painting Room, $has|tower_13th_street, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_13th_street",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_13th_street",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_13th_street",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_13th_street"
+					"@Entrance Regions/Hub Painting Room, $has|hub_13th_street, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_13th_street, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_13th_street, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_13th_street, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_13th_street, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_13th_street, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_13th_street, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_13th_street, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_13th_street, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -327,15 +327,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Great Stairway Regions/Underground Painting, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_sandy_grave",
-					"@Entrance Regions/Underground Passage, $has|passage_sandy_grave",
-					"@Great Stairway Regions/Underground Painting, $has|underground_sandy_grave",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_sandy_grave",
-					"@Tower of Death Regions/Painting Room, $has|tower_sandy_grave, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_sandy_grave",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_sandy_grave",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_sandy_grave",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_sandy_grave"
+					"@Entrance Regions/Hub Painting Room, $has|hub_sandy_grave, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_sandy_grave, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_sandy_grave, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_sandy_grave, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_sandy_grave, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_sandy_grave, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_sandy_grave, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_sandy_grave, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_sandy_grave, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -360,15 +360,15 @@
 				"name": "Main",
 				"access_rules": [
 					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_forgotten_city",
-					"@Entrance Regions/Underground Passage, $has|passage_forgotten_city",
-					"@Great Stairway Regions/Underground Painting, $has|underground_forgotten_city",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_forgotten_city",
-					"@Tower of Death Regions/Painting Room, $has|tower_forgotten_city, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_forgotten_city",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_forgotten_city",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_forgotten_city",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_forgotten_city"
+					"@Entrance Regions/Hub Painting Room, $has|hub_forgotten_city, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_forgotten_city, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_forgotten_city, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_forgotten_city, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_forgotten_city, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_forgotten_city, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_forgotten_city, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_forgotten_city, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_forgotten_city, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -394,15 +394,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Great Stairway Regions/Central Painting Area, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_nation_of_fools",
-					"@Entrance Regions/Underground Passage, $has|passage_nation_of_fools",
-					"@Great Stairway Regions/Underground Painting, $has|underground_nation_of_fools",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_nation_of_fools",
-					"@Tower of Death Regions/Painting Room, $has|tower_nation_of_fools, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_nation_of_fools",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_nation_of_fools",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_nation_of_fools",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_nation_of_fools"
+					"@Entrance Regions/Hub Painting Room, $has|hub_nation_of_fools, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_nation_of_fools, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_nation_of_fools, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_nation_of_fools, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_nation_of_fools, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_nation_of_fools, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_nation_of_fools, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_nation_of_fools, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_nation_of_fools, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -434,15 +434,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Tower of Death Regions/Painting Room, $has|portrait_shuffle_off, $has|stella_locket",
-					"@Entrance Regions/Hub Painting Room, $has|hub_forest_of_doom",
-					"@Entrance Regions/Underground Passage, $has|passage_forest_of_doom",
-					"@Great Stairway Regions/Underground Painting, $has|underground_forest_of_doom",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_forest_of_doom",
-					"@Tower of Death Regions/Painting Room, $has|tower_forest_of_doom, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_forest_of_doom",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_forest_of_doom",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_forest_of_doom",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_forest_of_doom"
+					"@Entrance Regions/Hub Painting Room, $has|hub_forest_of_doom, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_forest_of_doom, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_forest_of_doom, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_forest_of_doom, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_forest_of_doom, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_forest_of_doom, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_forest_of_doom, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_forest_of_doom, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_forest_of_doom, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -466,15 +466,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_dark_academy",
-					"@Entrance Regions/Underground Passage, $has|passage_dark_academy",
-					"@Great Stairway Regions/Underground Painting, $has|underground_dark_academy",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_dark_academy",
-					"@Tower of Death Regions/Painting Room, $has|tower_dark_academy, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_dark_academy",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_dark_academy",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_dark_academy",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_dark_academy"
+					"@Entrance Regions/Hub Painting Room, $has|hub_dark_academy, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_dark_academy, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_dark_academy, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_dark_academy, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_dark_academy, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_dark_academy, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_dark_academy, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_dark_academy, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_dark_academy, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -499,15 +499,15 @@
 				"name": "Start",
 				"access_rules": [
 					"@Master's Keep Regions/Portrait Room, $has|portrait_shuffle_off",
-					"@Entrance Regions/Hub Painting Room, $has|hub_burnt_paradise",
-					"@Entrance Regions/Underground Passage, $has|passage_burnt_paradise",
-					"@Great Stairway Regions/Underground Painting, $has|underground_burnt_paradise",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_burnt_paradise",
-					"@Tower of Death Regions/Painting Room, $has|tower_burnt_paradise, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_burnt_paradise",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_burnt_paradise",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_burnt_paradise",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_burnt_paradise"
+					"@Entrance Regions/Hub Painting Room, $has|hub_burnt_paradise, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_burnt_paradise, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_burnt_paradise, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_burnt_paradise, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_burnt_paradise, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_burnt_paradise, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_burnt_paradise, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_burnt_paradise, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_burnt_paradise, $portraits_are_shuffled"
 				]
 			},
 			{
@@ -526,15 +526,15 @@
 				"name": "Main",
 				"access_rules": [
 					"@Entrance Regions/Underground Passage, $has|portrait_shuffle_off, $nest_not_removed",
-					"@Entrance Regions/Hub Painting Room, $has|hub_nest_of_evil, $nest_not_removed",
-					"@Entrance Regions/Underground Passage, $has|passage_nest_of_evil, $nest_not_removed",
-					"@Great Stairway Regions/Underground Painting, $has|underground_nest_of_evil, $nest_not_removed",
-					"@Great Stairway Regions/Central Painting Area, $has|stairs_nest_of_evil, $nest_not_removed",
-					"@Tower of Death Regions/Painting Room, $has|tower_nest_of_evil, $nest_not_removed, $has|stella_locket",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_nest_of_evil, $nest_not_removed",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_nest_of_evil, $nest_not_removed",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_nest_of_evil, $nest_not_removed",
-					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_nest_of_evil, $nest_not_removed"
+					"@Entrance Regions/Hub Painting Room, $has|hub_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Entrance Regions/Underground Passage, $has|passage_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Great Stairway Regions/Underground Painting, $has|underground_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Great Stairway Regions/Central Painting Area, $has|stairs_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Tower of Death Regions/Painting Room, $has|tower_nest_of_evil, $nest_not_removed, $has|stella_locket, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_left_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_left_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_center_right_nest_of_evil, $nest_not_removed, $portraits_are_shuffled",
+					"@Master's Keep Regions/Portrait Room, $has|gallery_far_right_nest_of_evil, $nest_not_removed, $portraits_are_shuffled"
 				]
 			}
 		]
